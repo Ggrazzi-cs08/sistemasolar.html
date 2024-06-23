@@ -1,0 +1,167 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+} 
+
+body{
+    background-color: #e1d9ef;    
+}
+
+img{
+    margin: 30px 3%;
+    border:4px solid, #e1d9ef;
+    border-radius: 30px;
+}
+
+.flex{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 5%;
+    padding: 20px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h1.planeta{
+    text-align: center;
+    font-size: 40px;
+    color: #582957 ;
+}
+
+h3.txt{
+    font-size: 18px;
+    color:  #b69088;
+    
+}
+
+.infor img{
+    margin: 4% 20px 30px;
+}
+.infor{
+    margin-top: 20px;
+    padding: 20px;
+    border:4px solid #582957;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.infor #sol{
+    margin:40px 4% ;
+    display: none;
+    text-align: center;
+}
+
+.infor #sol:target{
+    display: block;
+}
+
+.infor #mercurio{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #mercurio:target{
+    display: block;
+}
+
+.infor #venus{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #venus:target{
+    display: block;
+}
+.infor #terra{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #terra:target{
+    display: block;
+}
+
+.infor #marte{
+    margin:40px 4% ;
+    display: none;
+    text-align: center;
+}
+
+.infor #marte:target{
+    display: block;
+}
+
+.infor #jupiter{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #jupiter:target{
+    display: block;
+}
+
+.infor #saturno{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #saturno:target{
+    display: block;
+}
+
+.infor #urano{
+    margin: 40px  4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #urano:target{
+    display: block;
+}
+
+.infor #netuno{
+    margin: 40px 4%;
+    display: none;
+    text-align: center;
+}
+
+.infor #netuno:target{
+    display: block;
+}
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 1020px) {
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    h1.planeta{
+        font-size: 28px;
+    }
+
+    h3.txt{
+        font-size: 16px;
+    }
+
+    .infor{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .img img{
+        max-width: 750px;
+        height: auto;
+    }
+}
